@@ -49,7 +49,8 @@ Let's get started with the small map scenario. If you notice, we have a river in
 
 * Let's first see what happens when we don't give our character any commands
 * Open up your terminal (if it isn't open already) and type in `python run_small.py` and hit enter
-* Notice how our character now stays in one place. We call this action "IDLE".
+* Heads up, all characters will spawn in the bottom left corner (a0) once you add them.
+    * They are added by adding entries in our `lab_actions_small` dictionary
 * Let's look ahead and make an observation. If we want to get the diamond AND get to the flag, we need to start the game by moving up.
 * Go into `lab.py` and find the section:
 ```python
